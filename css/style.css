@@ -4,18 +4,15 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
 
-.alert-container {}
 
 .callout-container {
-    height: 100vh;
 
+    height: 100vh;
     background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,8 +22,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+
 }
 
 .opaque-overlay {
@@ -89,22 +86,28 @@ body {
 
 .jumbotron .lead {
     color: #a7a7a7;
-    margin: 25px 0;
+    margin: 30px 0;
 }
 
 .jumbotron small {
-    font-size: 60%;
+    font-size: 80%;
     font-style: italic;
     color: #d0d0d0;
+
+}
+
+.text-muted {
+    margin-top: 10px;
 }
 
 /* Block dividers */
 
 .block-divider {
-    width: 75px;
-    height: 5px;
+    width: 850px;
+    height: 6px;
     border: 0;
     background-color: #444;
+
 }
 
 .block-divider--orange {
@@ -116,14 +119,14 @@ body {
 }
 
 .block-divider--short {
-    width: 35px;
+    width: 160px;
 }
 
 /* Buttons */
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 15px;
     width: 160px;
 }
 
@@ -198,4 +201,30 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+
+
+}
+
+.social-media {
+    margin: 20px;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1px;
+    padding: 20px;
+    color: #3a3a3a;
 }
